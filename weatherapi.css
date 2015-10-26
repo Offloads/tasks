@@ -1,9 +1,13 @@
+html{
+  color:aquamarine;
+
+}
 body{
     color:whitesmoke;
     text-align: inherit;
      
 }
 .weatherZone{
-    color:black;
+    color:coral;
     
 }

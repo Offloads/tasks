@@ -12,7 +12,7 @@ $(document).ready(function () {
                         console.log(data);
                         
                         $("div.weather").append(data.weather[0].description);
-$("div.temp").append(data.main.temp - 273.15 + "℃"
+$("div.temp").append(data.main.temp + "℃"
                     );
 $("div.info").append(data.main.humidity + "%");
                   

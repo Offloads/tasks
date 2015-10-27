@@ -1,10 +1,28 @@
 
 $(document).ready(function () {
     // ajax!!! 
+ /*$.ajax({
  
+    url:"",
+    
+    data: {
+     id:
+     },
+        
+    dataType: "json",
+        
+    success: function( json ){
+    
+        $( " " ).text(json.title ).appendTo( "body" );
+        $( " ").html( json.html ).appendTo( "body" );
+    },
+ });
+ */    
     $(".form").submit(function (event) {
         event.preventDefault();
-       $( ".weather" ).empty(); 
+       $( ".weather" ).empty();
+        $( ".temp" ).empty();
+        $( ".info" ).empty();
         var city = $("#city").val();
         console.log(city);
         $.getJSON("http://api.openweathermap.org/data/2.5/weather?q=" + city + "&APPID=81c2ea79fca364daa87277ef91a150b3").done(

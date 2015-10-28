@@ -22,16 +22,23 @@ h2{
 
 }
 
-.static-info, form, p{
-margin-top: auto;
+.static-info, form, p,.weather-city{
+margin-top: 1em;
 margin-right: auto;
 margin-bottom: auto;
 margin-left:5em;
+color: #13D7DA;
 }
 .weatherZone{
 color:coral;
-margin-right: 5.0em;
 margin-left: 5.0em;
+}
+.temp{
+margin-left: 5em;
+}
+
+.info{
+margin-left: 5em;
 }
 
 .style {
